@@ -1,0 +1,173 @@
+{
+  "uid" : "ece84bcbf8dc5f4d",
+  "name" : "\"before all\" hook for \"verify Million more page title\"",
+  "fullName" : "Million more page feature test.\"before all\" hook for \"verify Million more page title\"",
+  "historyId" : "9721061180969308f80dcd18340f617c",
+  "time" : {
+    "start" : 1604871375034,
+    "stop" : 1604871391445,
+    "duration" : 16411
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1604871375041,
+        "stop" : 1604871382570,
+        "duration" : 7529
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac90320e33d55548",
+        "name" : "Request",
+        "source" : "ac90320e33d55548.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1604871382571,
+        "stop" : 1604871384766,
+        "duration" : 2195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "891a7e1399fa095d",
+        "name" : "Response",
+        "source" : "891a7e1399fa095d.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604871389789,
+        "stop" : 1604871390086,
+        "duration" : 297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ca77aafc9f5121",
+        "name" : "Request",
+        "source" : "6ca77aafc9f5121.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "9e29b03efe292e95",
+        "name" : "Response",
+        "source" : "9e29b03efe292e95.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/d8200f9d-17ed-440b-8f05-2f47508ffd3c/displayed",
+      "time" : {
+        "start" : 1604871390132,
+        "stop" : 1604871390496,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56d77f6112ca5afd",
+        "name" : "Response",
+        "source" : "56d77f6112ca5afd.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d8200f9d-17ed-440b-8f05-2f47508ffd3c/click",
+      "time" : {
+        "start" : 1604871390497,
+        "stop" : 1604871391444,
+        "duration" : 947
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Million more page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "Million more page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for \"verify Million more page title\""
+  }, {
+    "name" : "package",
+    "value" : "Million more page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-82.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ece84bcbf8dc5f4d.json",
+  "parameterValues" : [ "firefox-82.0.2" ]
+}

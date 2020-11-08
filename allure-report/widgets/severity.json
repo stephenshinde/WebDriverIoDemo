@@ -1,0 +1,81 @@
+[ {
+  "uid" : "ece84bcbf8dc5f4d",
+  "name" : "\"before all\" hook for \"verify Million more page title\"",
+  "time" : {
+    "start" : 1604871375034,
+    "stop" : 1604871391445,
+    "duration" : 16411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e00ebbde9bc0b7f",
+  "name" : "verify text is present",
+  "time" : {
+    "start" : 1604871371125,
+    "stop" : 1604871372085,
+    "duration" : 960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17344590da65296b",
+  "name" : "verify Million more page title",
+  "time" : {
+    "start" : 1604871391446,
+    "stop" : 1604871391781,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9096073a1f52037",
+  "name" : "verify page element is available",
+  "time" : {
+    "start" : 1604871391783,
+    "stop" : 1604871393756,
+    "duration" : 1973
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d014f40e1ba8120f",
+  "name" : "\"before all\" hook for \"verify Million more page title\"",
+  "time" : {
+    "start" : 1604871339504,
+    "stop" : 1604871364982,
+    "duration" : 25478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b95714d08207f88e",
+  "name" : "verify page element is available",
+  "time" : {
+    "start" : 1604871370131,
+    "stop" : 1604871371124,
+    "duration" : 993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbcff6d9463534cd",
+  "name" : "verify Million more page title",
+  "time" : {
+    "start" : 1604871364983,
+    "stop" : 1604871370130,
+    "duration" : 5147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56937768aee7893d",
+  "name" : "verify text is present",
+  "time" : {
+    "start" : 1604871393756,
+    "stop" : 1604871394257,
+    "duration" : 501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
